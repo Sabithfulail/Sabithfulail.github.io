@@ -1,0 +1,117 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.content {
+    padding: 20px;
+    margin: 20px auto 27px;
+    /* 27px -> footer height */
+    max-width: 940px;
+}
+
+.page-top {
+    display: flex;
+    justify-content: space-around;
+}
+
+.titles {
+    text-align: center;
+    align-self: center;
+    max-width: 335px;
+}
+
+.titles h1 {
+    font-size: 35px;
+    margin-bottom: 0;
+    width: max-content;
+}
+
+.titles h3 {
+    margin-top: 10px;
+    color: gray;
+    font-size: 25px;
+}
+
+.content a {
+    background-color: rgba(187, 239, 253, 0.3);
+    color: #6968d1;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.content a:hover {
+    background-color: #bbeffd;
+}
+
+.image-container img {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    animation: fadeIn 1s;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    max-width: 390px;
+    margin: 50px auto 20px;
+}
+
+.buttons button {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #e7e7e7;
+    padding: 5px 10px;
+    color: #3197d3;
+    background: white;
+}
+
+.buttons button:hover {
+    color: #fd5f5f;
+}
+
+.information p {
+    line-height: 30px;
+    font-size: 18px;
+    animation: fadeIn .3s;
+}
+
+.heart-emoji {
+    color: rgb(0, 225, 255);
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #060546;
+    padding: 2px;
+    color: rgb(250, 37, 232);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 27px;
+}
+
+footer p {
+    margin: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden !important;
+}
